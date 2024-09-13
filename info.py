@@ -55,7 +55,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-100
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://testwithvps:hostingup@testwithvps.7nzcbje.mongodb.net/?retryWrites=true&w=majority&appName=testwithvps")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://@testwithvps.7nzcbje.mongodb.net/?retryWrites=true&w=majority&appName=testwithvps")
 DATABASE_NAME = environ.get('DATABASE_NAME', "AmRobotsTech")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'AmRobotsTech_Files')
 
@@ -132,10 +132,10 @@ YEARS = ["1900", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998",
 
 
 # Online Stream and Download
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-MULTI_CLIENT = True
+MULTI_CLIENT = False
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 URL = environ.get("URL", "http://vps.hostingup.icu:9083") # If U Use HostingUp VPS Server Then U Will Recive In Mail Domain Name If U Have Own Domain Name Then U Can Add
@@ -154,7 +154,7 @@ else:
 
 
 # Rename Info : If True Then Bot Rename File Else Not
-RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or False
+RENAME_MODE = bool(environ.get('RENAME_MODE', False)) # Set True or False
 
 # Auto Approve Info : If True Then Bot Approve New Upcoming Join Request Else Not
 AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', True)) # Set True or False
