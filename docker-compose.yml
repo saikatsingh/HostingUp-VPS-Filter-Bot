@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+  app:
+    container_name: amrobots-filter-bot
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python bot.py
+    restart: on-failure
+    ports:
+      - "80:80"
+      - "8080:8080"
