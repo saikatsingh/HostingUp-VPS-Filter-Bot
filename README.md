@@ -121,13 +121,13 @@ Join My <a href='https://telegram.dog/AmRobots_Bots'>Update Channel</a> For More
 ### Optional Variables
 * <b>`PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
-* Check [info.py](https://github.com/AM-ROBOTS/AMROBOTS-Filter-Bot/blob/AmRobotsTech/info.py) for more optional variables.</b>
+* Check [info.py](https://github.com/AM-ROBOTS/HostingUp-VPS-Filter-Bot/blob/AmRobotsTech/info.py) for more optional variables.</b>
 
 
 <details><summary><b>Deploy To Heroku</b></summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/AM-ROBOTS/AMROBOTS-Filter-Bot">
+<a href="https://heroku.com/deploy?template=https://github.com/AM-ROBOTS/HostingUp-VPS-Filter-Bot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
 </a>
 </p>
@@ -139,7 +139,7 @@ Join My <a href='https://telegram.dog/AmRobots_Bots'>Update Channel</a> For More
 <br>
 <br>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/AM-ROBOTS/AMROBOTS-Filter-Bot&branch=AmRobotsTech&name=AMROBOTS-Filter-Bot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/AM-ROBOTS/HostingUp-VPS-Filter-Bot&branch=AmRobotsTech&name=HostingUp-VPS-Filter-Bot)
 </details>
 
 <details><summary><b>Deploy To Render</b></summary>
@@ -166,7 +166,7 @@ Use these settings when adding a monitor:</b>
 <b>Click on the below button to deploy directly to render ↓</b>
 <br>
 <br>
-<a href="https://render.com/deploy?repo=https://github.com/AM-ROBOTS/AMROBOTS-Filter-Bot/tree/AmRobotsTech">
+<a href="https://render.com/deploy?repo=https://github.com/AM-ROBOTS/HostingUp-VPS-Filter-Bot/tree/AmRobotsTech">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a>
 </details>
@@ -177,11 +177,11 @@ Use these settings when adding a monitor:</b>
 
 Run This Bot Then Edit info.py with variables as given below then run bot 24/7 
 
-`hbot https://github.com/AM-ROBOTS/HOSTINGUP-AMROBOTS-FILTER-BOT`
+`hbot https://github.com/AM-ROBOTS/HostingUp-VPS-Filter-Bot`
 
 FOR CLOSE THIS BOT
 
-`hcloseb HOSTINGUP-AMROBOTS-FILTER-BOT_bot`
+`hcloseb HostingUp-VPS-Filter-Bot_bot`
 
 <br>
 <br>
