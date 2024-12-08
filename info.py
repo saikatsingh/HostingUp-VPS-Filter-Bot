@@ -56,7 +56,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mailmetosaikat676:saikat9735@cluster0.2esif.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "AmRobotsTech")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'AmRobotsTech_Files')
 
 # Premium And Referal Settings
@@ -111,7 +111,7 @@ SHORTLINK_API = environ.get('SHORTLINK_API', '')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
-PORT = environ.get("PORT", "7019") # If U Use HostingUp VPS Server Then U Recived In Mail Hosting Port (Only For Stream Feture) 
+PORT = environ.get("PORT", "9019") # If U Use HostingUp VPS Server Then U Recived In Mail Hosting Port (Only For Stream Feture) 
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
@@ -138,7 +138,7 @@ STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
 MULTI_CLIENT = False
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
-URL = environ.get("URL", "http://vps.hostingup.icu:9083") # If U Use HostingUp VPS Server Then U Will Recive In Mail Domain Name If U Have Own Domain Name Then U Can Add
+URL = environ.get("URL", "http://vps.hostingup.icu:9019") # If U Use HostingUp VPS Server Then U Will Recive In Mail Domain Name If U Have Own Domain Name Then U Can Add
 if len(URL) == 0:
     print('Error - URL is missing, exiting now')
     exit()
